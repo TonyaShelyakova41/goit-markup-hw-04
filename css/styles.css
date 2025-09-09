@@ -145,7 +145,17 @@ img {
   text-align: center;
 }
 .solutions {
+  max-width: 1440px;
   background: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero-bg.jpg");
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -171,6 +181,7 @@ img {
   cursor: pointer;
   display: block;
   border-radius: 4px;
+  margin: 0 auto;
   margin-top: 48px;
   min-width: 169px;
   height: 56px;
@@ -232,8 +243,6 @@ container container-features {
 /* ----team----*/
 
 .team-container {
-  max-width: 1440px;
-  height: 732px;
 }
 .team {
   background-color: #f4f4fd;
@@ -292,10 +301,8 @@ container container-features {
 }
 
 .container-portfolio {
-  height: 1000px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
+
 .title-portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -350,11 +357,6 @@ container container-features {
   padding-bottom: 100px;
 }
 
-.footer-decor {
-  box-sizing: content-box;
-  max-width: 264px;
-  margin-left: 0;
-}
 .footer-logo {
   display: inline-block;
   font-family: "Raleway", sans-serif;
@@ -377,6 +379,7 @@ container container-features {
 }
 
 .footer-text {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
