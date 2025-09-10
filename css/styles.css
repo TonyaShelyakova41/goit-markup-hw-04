@@ -220,6 +220,17 @@ container container-features {
   align-items: center;
 }
 
+.features-icon-wrapper {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .features-list-item {
   flex-basis: calc((100% - 72px) / 4);
 }
@@ -292,6 +303,9 @@ container container-features {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.team-social-icon {
+  fill: #4d5ae5;
 }
 
 /* ----portfolio----*/
