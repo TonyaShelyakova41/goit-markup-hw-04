@@ -307,6 +307,10 @@ container container-features {
 .team-social-icon {
   fill: #f4f4fd;
 }
+.team-social-item:hover,
+.team-social-item:focus {
+  background-color: #31d0aa;
+}
 
 .team-social-item {
   width: 40px;
@@ -415,4 +419,18 @@ container container-features {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: flex-start;
+  gap: 120px;
+}
+
+.footer-right-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
 }
