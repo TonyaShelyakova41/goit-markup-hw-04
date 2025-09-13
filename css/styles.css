@@ -336,12 +336,13 @@ img {
 .team-social-icon {
   fill: #f4f4fd;
 }
-.team-social-item:hover,
-.team-social-item:focus {
+.team-social-item .social-link:hover,
+.team-social-item .social-link:focus {
   background-color: #31d0aa;
 }
 
-.team-icon:hover {
+.team-icon .social-link:hover,
+.team-icon .social-link:focus {
   background-color: #404bbf;
 }
 
