@@ -450,10 +450,12 @@ img {
 /* ----footer---*/
 
 .footer {
-  display: block;
+  display: flex;
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  padding-left: 156px;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -496,5 +498,14 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-decor {
+  margin-right: 120px;
+}
+
+.footer-social-list {
+  gap: 16px;
 }
