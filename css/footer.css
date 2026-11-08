@@ -28,7 +28,10 @@
   font-weight: 500;
   font-size: 16px;
   color: #fff;
-  margin-bottom: 16px;
+}
+
+.team-social.footer-social {
+  gap: 16px;
 }
 
 .footer-social .team-social-link {
