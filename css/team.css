@@ -50,7 +50,8 @@
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
-  color: #fff;
+  color: #f4f4fd;
+  transition: background-color 250ms ease-in-out;
 }
 
 .team-social .team-social-link:hover,

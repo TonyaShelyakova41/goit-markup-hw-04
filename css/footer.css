@@ -17,6 +17,7 @@
 .container-footer-social {
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
 .footer-left {
@@ -28,6 +29,10 @@
   font-size: 16px;
   color: #fff;
   margin-bottom: 16px;
+}
+
+.footer-social .team-social-link {
+  transition: background-color 250ms ease-in-out;
 }
 
 .footer-social .team-social-link:hover,

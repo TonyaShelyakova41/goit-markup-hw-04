@@ -11,6 +11,7 @@
     ),
     url(../images/hero-bg.jpg);
   background-color: #2e2f42;
+  background-size: cover;
   padding: 188px 0;
 }
 
@@ -31,6 +32,8 @@
   border-radius: 4px;
   padding: 16px 32px;
   border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms ease-in-out;
 }
 
 .hero-btn:hover,
